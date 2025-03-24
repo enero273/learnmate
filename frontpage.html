@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnMate</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('backg.avif') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        .content {
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+        .content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .icons-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 20px 0;
+        }
+        .icon {
+            text-align: center;
+            color: white;
+        }
+        .icon img {
+            width: 80px;
+            height: 80px;
+        }
+        .get-started {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #f04e30;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .get-started:hover {
+            background-color: #c03e28;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo1.png" alt="LearnMate Logo" class="logo">
+    <h1>LearnMate</h1>
+</header>
+
+<div class="content">
+    <h1>Welcome to LearnMate</h1>
+    <p>Your go-to platform for interactive learning. Browse lessons, explore PDFs, and enhance your knowledge.</p>
+    
+    <div class="icons-container">
+        <div class="icon">
+            <img src="icon3.png" alt="Easy Learning">
+            <p>Easy Learning</p>
+        </div>
+        <div class="icon">
+            <img src="icon2.png" alt="Expert Lessons">
+            <p>Expert Lessons</p>
+        </div>
+        <div class="icon">
+            <img src="icon1.png" alt="Interactive Content">
+            <p>Interactive Content</p>
+        </div>
+    </div>
+    
+    <button class="get-started" onclick="window.location.href='mobileapp.html'">Get Started</button>
+</div>
+
+<footer>
+    <p>LearnMate - Empowering Education</p>
+</footer>
+
+</body>
+</html>
